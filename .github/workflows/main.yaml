@@ -43,7 +43,7 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
         with:
-          languages: java-kotlin
+          languages: /language:java-kotlin
 
       - name: Upload SARIF
         uses: github/codeql-action/upload-sarif@v2
